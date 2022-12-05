@@ -42,7 +42,7 @@ def dirac_is_hamiltonian(vertices, edges):
         for edge in edges:
             if(edge.start_label == vertex.label and edge.end_label == vertex.label):
                 count += 1
-        if(count < math.floor(n/2)):
+        if(count < math.ceil(n/2)):
             return 0
     return 1
 
@@ -82,7 +82,7 @@ def clear_screen():
     last_mouse_y = 0
     return vertices, edges, label, first_mouse_x, first_mouse_y, last_mouse_x, last_mouse_y
 
-#Save Graph
+#Save Graph as Image
 def save_graph_image():
     graph_surface = window_surface.subsurface(graph_rect)
     pygame.image.save(graph_surface, file)
