@@ -1,0 +1,1 @@
+Graph Theory is a challenging topic for Engineering, Computer Science, and Mathematics students. Many of homework questions in a graph theory class require students to create graphs. This process is often tedious and requires a knowledge of programming and advanced software. This program that I developed using Pygame makes the process of creating graphs simple. 
